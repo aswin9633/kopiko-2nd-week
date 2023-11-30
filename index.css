@@ -1,0 +1,87 @@
+*{
+    background-color: black;
+}
+.main-container{
+    height:270px;
+    background-color: black;
+    color:white;
+}
+.main-title:hover{
+  color: rgb(200, 49, 49);
+  
+}
+.header-text{
+    text-align: center;
+    color: #b7b7b7;
+    letter-spacing: 5px;
+    font-family: Fira Sans;
+    margin-bottom: 40px;
+}
+
+
+.navbar-menu{
+    justify-content: center;
+    gap: 2rem;
+    border-top: 1px solid #b7b7b7;
+    padding-top: 20px;
+}
+.navbar-nav{
+    gap: 2rem;
+}
+.nav-link{
+    font-size: 18px;
+}
+.main-title{
+    font-size: 60px;
+    color:#b7b7b7
+}
+
+
+
+.about-text{
+    font-weight: 700;
+    text-align: center;
+    margin-top:120px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    color:#b7b7b7;
+}
+.about-text-2{
+    font-weight: 700;
+    text-align: center;
+    margin-top:20px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    color:#b7b7b7;
+}
+.img2{
+    padding-bottom: 300px;
+
+}
+.wrapper{
+    text-align: center;
+    color:#b7b7b7;
+    margin-top: 90px;
+    margin-bottom:100px;
+    
+}
+.blue_line{
+    color:white;
+    
+}
+.blue_line:hover{
+    text-decoration: underline;
+    color: rgb(175, 58, 58);
+}
+.nav-item:hover{
+    color:rgb(181, 67, 67);
+}
+
+.navbar>.container-fluid{
+    justify-content: center;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover { 
+  color: red !important;
+}
